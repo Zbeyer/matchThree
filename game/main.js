@@ -48,8 +48,8 @@ class Poker
 			},
 			scale: {
 				mode: Phaser.Scale.ScaleModes.FIT,
-				height: 768,
-				width: 1024,
+				height: 1280,
+				width: 768,
 			},
 			audio: {
 				disableWebAudio: false,
@@ -62,7 +62,9 @@ class Poker
 		game.scene.add('Boot', BootScene);
 		game.scene.add('Preloader', PreloadScene);
 		game.scene.add('MainMenu', MainMenu);
+		game.scene.add('Credits', Credits);
 		game.scene.add('Quit', QuitScreen);
+		// Dimensions.game = game;
 
 		game.scene.start('Boot');
 		return game;
