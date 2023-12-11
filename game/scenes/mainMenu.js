@@ -47,4 +47,4 @@ class MainMenu extends Phaser.Scene
 		scene.add.text(buttonQuit.x+padding, buttonQuit.y+padding, 'Quit', {fontSize: '32px', fill: '#FFF'});
 
 	}
-};
+}
