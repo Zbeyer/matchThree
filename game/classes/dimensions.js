@@ -2,7 +2,7 @@ class Dimensions
 {
 	static buttonPadding = 32;
 	static buttonHeight = Dimensions.buttonPadding * 3;
-	static buttonWidth = Dimensions.buttonPadding * 13;
+	static buttonWidth = 704;
 	// static game;
 	// static gameHeight = Dimensions.game.config.height;
 	// static gameWidth = Dimensions.game.config.width;
